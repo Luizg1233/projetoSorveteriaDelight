@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #1a6c6c 16.62%, #329e56 85.61%);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.headerImage {
+  height: 72px;
+}
+
+.headerMenu {
+  display: flex;
+  gap: 32px;
+}
+
+.headerMenuItem {
+  font-family: "Sarala", sans-serif;
+  color: #ffcda3;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.main {
+  border-top: 0.4px solid #fff2e7;
+  margin-bottom: -70px;
+}
+
+.sectionMain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sectionMainContent {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.sectionMainContentTitle {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #ffcda3;
+}
+
+.sectionMainContentSubtitle {
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffcda3;
+}
+.sectionMainContentButton {
+  font-family: "Sarala", sans-serif;
+  width: 185px;
+  height: 67px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-size: 22px;
+  background-color: #ffcda3;
+  color: #2f2325;
+}
+
+.sectionMainContentButton:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.sectionMainContentImage {
+  height: 430px;
+}
+
+.sectionSecondary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+  margin-bottom: 150px;
+}
+
+.sectionSecondaryTitle {
+  border-top: 0.4px solid #fff2e7;
+  padding-top: 48px;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffcda3;
+  margin-bottom: 16px;
+}
+
+.sectionSecondaryParagraph {
+  font-family: "Sarala", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #ffcda3;
+}
+
+.footer {
+  border-top: 0.4px solid #fff2e7;
+  padding: 32px;
+}
+
+.footerImage {
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+}
